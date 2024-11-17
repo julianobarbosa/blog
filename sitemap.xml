@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://juliano.barbosa.github.io/</loc>
+         <loc>https://juliano.barbosa.github.io/blog/</loc>
          <lastmod>2024-11-17</lastmod>
     </url>
     <url>
-         <loc>https://juliano.barbosa.github.io/about/</loc>
+         <loc>https://juliano.barbosa.github.io/blog/about/</loc>
          <lastmod>2024-11-17</lastmod>
     </url>
     <url>
-         <loc>https://juliano.barbosa.github.io/ansible/</loc>
+         <loc>https://juliano.barbosa.github.io/blog/ansible/</loc>
          <lastmod>2024-11-17</lastmod>
     </url>
     <url>
-         <loc>https://juliano.barbosa.github.io/ansible/content/</loc>
+         <loc>https://juliano.barbosa.github.io/blog/ansible/content/</loc>
          <lastmod>2024-11-17</lastmod>
     </url>
     <url>
-         <loc>https://juliano.barbosa.github.io/k8s/</loc>
+         <loc>https://juliano.barbosa.github.io/blog/k8s/</loc>
          <lastmod>2024-11-17</lastmod>
     </url>
     <url>
-         <loc>https://juliano.barbosa.github.io/k8s/content/</loc>
+         <loc>https://juliano.barbosa.github.io/blog/k8s/content/</loc>
          <lastmod>2024-11-17</lastmod>
     </url>
     <url>
-         <loc>https://juliano.barbosa.github.io/k9s/</loc>
+         <loc>https://juliano.barbosa.github.io/blog/k9s/</loc>
          <lastmod>2024-11-17</lastmod>
     </url>
     <url>
-         <loc>https://juliano.barbosa.github.io/k9s/content/</loc>
+         <loc>https://juliano.barbosa.github.io/blog/k9s/content/</loc>
          <lastmod>2024-11-17</lastmod>
     </url>
     <url>
-         <loc>https://juliano.barbosa.github.io/nvim/</loc>
+         <loc>https://juliano.barbosa.github.io/blog/nvim/</loc>
          <lastmod>2024-11-17</lastmod>
     </url>
     <url>
-         <loc>https://juliano.barbosa.github.io/nvim/content/</loc>
+         <loc>https://juliano.barbosa.github.io/blog/nvim/content/</loc>
          <lastmod>2024-11-17</lastmod>
     </url>
     <url>
-         <loc>https://juliano.barbosa.github.io/zabbix/</loc>
+         <loc>https://juliano.barbosa.github.io/blog/zabbix/</loc>
          <lastmod>2024-11-17</lastmod>
     </url>
     <url>
-         <loc>https://juliano.barbosa.github.io/zabbix/content/</loc>
+         <loc>https://juliano.barbosa.github.io/blog/zabbix/content/</loc>
          <lastmod>2024-11-17</lastmod>
     </url>
 </urlset>
