@@ -1,0 +1,52 @@
+[tool.ruff.lint]
+# default rules include pyflakes ("F")
+# see https://docs.astral.sh/ruff/configuration/#using-pyprojecttoml
+# "F" contains autoflake, see https://github.com/astral-sh/ruff/issues/1647
+# add more rules
+extend-select = [
+	# TODO: "A",   # flake8-builtins
+	# TODO: "ARG", # flake8-unused-arguments
+	"B",   # flake8-bugbear
+	"BLE", # flake8-blind-except
+	# TODO: Do I want "COM", # flake8-commas
+	"C4", # flake8-comprehensions
+	# TODO: "DJ",  # flake8-django
+	# TODO: "DTZ", # flake8-datetimez
+	# TODO: "EM",  # flake8-errmsg
+	"EXE", # flake8-executable
+	# TODO: "FURB", # refurb
+	# TODO: "FBT", # flake8-boolean-trap
+	# TODO: "G",   # flake8-logging-format
+	"I",   # isort
+	"ICN", # flake8-import-conventions
+	"INP", # flake8-no-pep420
+	# TODO: "INT", # flake8-gettext
+	"ISC", # flake8-implicit-str-concat
+	# TODO: "LOG", # flake8-logging
+	"PERF", # perflint
+	"PIE",  # flake8-pie
+	"PL",   # pylint
+	"PYI",  # flake8-pyi
+	# TODO: "RET", # flake8-return
+	"RSE", # flake8-raise
+	"RUF",
+	# TODO: "SIM", # flake8-simplify
+	"SLF",  # flake8-self
+	"SLOT", # flake8-slots
+	"TID",  # flake8-tidy-imports
+	"UP",   # pyupgrade
+	"Q",    # flake8-quotes
+	"TCH",  # flake8-type-checking
+	"T10",  # flake8-debugger
+	"T20",  # flake8-print
+	# TODO: "S",   # flake8-bandit
+	"YTT", # flake8-2020
+	# TODO: add more flake8 rules
+]
+
+ignore = ["RUF012"]
+
+[tool.ruff.lint.extend-per-file-ignores]
+
+"**/migrations/*" = ["Q"]
+"**/management/commands/*" = ["T20"]
