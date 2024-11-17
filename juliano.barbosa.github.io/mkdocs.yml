@@ -1,0 +1,25 @@
+site_name: Juliano-Barbosa Blogs
+site_url: https://juliano.barbosa.github.io/
+site_author: Juliano Barbosa
+site_description: >-
+  Juliano Barbosa é um experiente profissional de TI e DevOps com mais de 23 anos de trajetória, destacando-se como gerente de TI, analista sênior e líder em consultoria. Possui especialização em administração de sistemas (Linux, Windows), gerenciamento de datacenters, infraestrutura de nuvem (IaaS, PaaS, SaaS) e tecnologias como Kubernetes, Docker, Ansible, Terraform e VMware. Com MBA em Governança de TI, ele traz certificações como ITIL, CKA e COBIT, sendo proficiente em Python e metodologias de CI/CD, promovendo inovação e soluções de alto desempenho em ambientes empresariais complexos.
+# Repository: necessary to display the repo on the top right corner
+repo_name: juliano.barbosa/juliano.barbosa.github.io
+repo_url: https://github.com/juliano.barbosa/juliano.barbosa.github.io
+# Configuration:
+theme:
+  name: material
+# Additional configuration
+# extra:
+#   analytics:
+#     provider: google
+#     property: <your google analystics code>
+nav:
+  - Home: index.md
+  - Current project:
+      - "k8s": "k8s/index.md"
+  - Other project:
+      - "ansible": "zabbix/index.md"
+      - "k9s": "k9s/index.md"
+      - "nvim": "nvim/index.md"
+      - "zabbix": "zabbix/index.md"
